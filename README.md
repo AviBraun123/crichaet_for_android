@@ -31,9 +31,9 @@ if you are in portrait mode, you'll see all the "open chats" you have and the la
 If you click in one of those intros, the whole chat will open in on your screen, and by clicking the back button it will send you back to the list.
 
 if you are in landscape mode, you have in the right side all the "open chats" you have and the last message that was sent in them, and in the left side you will see some default template.\
-If you click in one of those intros, the whole chat will open in the right side of the screen.\
+If you click in one of those intros, the whole chat will open in the right side of the screen.
 
-now, in the bottom you have input space and a "send" button.\
+now, in the bottom you have input space and a "send" button.
 
 ## Authors
 
