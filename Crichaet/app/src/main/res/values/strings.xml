@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Crichaet</string>
+    <string name="BaseUrl">http://10.0.2.2:6132/api/</string>
+    <string name="Nickname">nickname</string>
+    <string name="Username">username</string>
+    <string name="Server">server</string>
+    <string name="Password">password</string>
+    <string name="Sendbox">message</string>
+    <string name="source">template.png</string>
+    <string name="source2">template2.png</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
