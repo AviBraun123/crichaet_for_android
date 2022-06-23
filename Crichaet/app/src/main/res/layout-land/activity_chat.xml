@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat">
+
+    <!--    <ScrollView-->
+    <!--        android:id="@+id/scrollView2"-->
+    <!--        android:layout_width="365dp"-->
+    <!--        android:layout_height="520dp"-->
+    <!--        android:background="#FFFFFF"-->
+    <!--        android:backgroundTint="#EFCE7A"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"-->
+    <!--        app:layout_constraintVertical_bias="0.0">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:rotationX="0">-->
+
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/template" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="365dp"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#57C58B"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/contactImage"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:elegantTextHeight="true"
+            android:fontFamily="@font/droid_serif_bold"
+            android:text="Contact"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="44sp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textBox"
+        android:layout_width="288dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="76dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/Sendbox"
+        android:inputType="textPersonName"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/Sender"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#4BC14F"
+        android:contentDescription="@android:string/no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textBox"
+        app:layout_constraintTop_toBottomOf="@+id/MsgScreen"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/sender_foreground" />
+
+    <ListView
+        android:id="@+id/MsgScreen"
+        android:layout_width="365dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#D0B23A"
+        app:layout_constraintBottom_toTopOf="@+id/textBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+<!--    <include-->
+<!--        android:id="@+id/incEditPlayerNames"-->
+<!--        layout="@layout/activity_chats"-->
+<!--        android:layout_width="369dp"-->
+<!--        android:layout_height="407dp"-->
+<!--        android:layout_rowWeight="1"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/MsgScreen"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView2"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
